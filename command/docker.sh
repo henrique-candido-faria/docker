@@ -1,3 +1,3 @@
-curl -fsSL https://get.docker.com | bash
-docker --version
-docker container ls
+curl -fsSL https://get.docker.com | bash # install docker
+docker version # check version
+
