@@ -2,6 +2,8 @@
 - sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 - docker version
 
+# CONFIGURAÇÃO
+
 # DESINSTALAÇÃO
 - dpkg -l | grep -i docker
 - sudo apt-get purge -y docker-engine docker docker.io docker-ce docker-ce-cli
