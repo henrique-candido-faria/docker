@@ -26,6 +26,6 @@
 - docker restart <!-- Reinicia o container -->
 - docker pause <!-- Realiza o pause do container -->
 - docke unpause <!-- Retorna o container a sua execução -->
-- docker inspect <!-- Verificar as informações do container>
-- docker logs <!-- Verifica os logs do container>
+- docker inspect <!-- Verificar as informações do container -->
+- docker logs <!-- Verifica os logs do container -->
 - docker rm <!-- Remover containers -->
