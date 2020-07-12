@@ -19,7 +19,7 @@
 - docker run <!-- Realiza a execução de um container -->
 - docker run -ti ubuntu <!-- t (terminal), i (interação), ubuntu (imagem) -->
 - docker run -d nginx <!-- Realizar a execução de um container em modo daemon -->
-- docker run -d -m 128M --cpus 1 nginx <!-- Delimitando a quantidade de Memoria e CPU que o container pode utilizar -->
+- docker run -d -m 128M --cpus 1 nginx <!-- Delimitando a quantidade de Memoria e CPU para o container -->
 - docker attach <!-- Acessar container em execução -->
 - docker exec <!-- Executar alguma ação dentro do container -->
 - docker stop <!-- Para o container -->
@@ -33,3 +33,4 @@
 - docker stats <!-- Verificar o status do container -->
 - docker top <!-- Verificar os processos que estão sendo executados dentro do container -->
 - docker update <!-- Realiza a atualização de um container em execução -->
+- docker image build -t name:version . <!-- Realização do build -->
