@@ -1,0 +1,13 @@
+# DOCKERFILE
+- FROM <!-- Especificação de qual imagem utilizar -->
+- LABEL <!-- Indentificação -->
+- ENV <!-- Variavel de ambiente -->
+- RUN <!-- Realizar comando durante o build -->
+- CMD <!-- Realizar comando após o build -->
+- VOLUME <!-- Indica aonde está os dados -->
+- EXPOSE <!-- Expõe a porta do container -->
+- ENTRYPOINT <!-- Informar a execução de algum comando em determinado local -->
+- COPY <!-- Realiza a copia de determinado arquivo para determinado local -->
+- ADD <!-- Realiza a copia de outros tipos de arquivo -->
+- USER <!-- Utilização de um usuário específico -->
+- WORKDIR <!-- Diretório default que inicializara no container -->

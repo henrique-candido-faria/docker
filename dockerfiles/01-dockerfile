@@ -1,0 +1,12 @@
+FROM ubuntu
+
+LABEL so="ubuntu"
+
+ENV henrique="Henrique Candido Faria"
+
+RUN apt-get update && apt-get install -y stress && apt-get clean
+
+CMD stress --cpu 1 --vm-bytes 64M --vm 1
+
+# docker image build -t ubuntu:1.0.0 -f 01-dockerfile .
+# docker image build -t ubuntu:1.0.1 -f 01-dockerfile . --no-cache
