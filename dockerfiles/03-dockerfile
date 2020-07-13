@@ -1,0 +1,7 @@
+FROM golang
+
+WORKDIR /
+
+ADD . /app
+RUN go build -o meu_go
+ENTRYPOINT ./meugo
