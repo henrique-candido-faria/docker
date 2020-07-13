@@ -20,6 +20,12 @@
 - docker run -ti ubuntu <!-- t (terminal), i (interação), ubuntu (imagem) -->
 - docker run -d nginx <!-- Realizar a execução de um container em modo daemon -->
 - docker run -d -m 128M --cpus 1 nginx <!-- Delimitando a quantidade de Memoria e CPU para o container -->
+- docker rub -ti --mount type=bind,src=fonte,dst=destino ubuntu <!-- Montagem de um apontamento para o local aonde ficara os dados -->
+- docker run -ti --mount type=volume,src=nome_do_volume,dst=destino ubuntu <!-- Montagem de um volume para o local aonde ficara os dados -->
+- docker run -p 8080:80 <!-- Expõe a porta 8080 para conectar na 80 do container -->
+- docker run -P <!-- Expõe qualquer porta aliatória -->
+- docker volume create nome <!-- Criação de um volume -->
+- docker volume ls <!-- Lista os volumes -->
 - docker attach <!-- Acessar container em execução -->
 - docker exec <!-- Executar alguma ação dentro do container -->
 - docker stop <!-- Para o container -->
@@ -34,3 +40,5 @@
 - docker top <!-- Verificar os processos que estão sendo executados dentro do container -->
 - docker update <!-- Realiza a atualização de um container em execução -->
 - docker image build -t name:version . <!-- Realização do build -->
+- docker container prune <!-- Remove todos os containers -->
+- docker volume prune <!-- Remove todos os volumes -->
