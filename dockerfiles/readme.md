@@ -11,3 +11,4 @@
 - ADD <!-- Realiza a copia de outros tipos de arquivo -->
 - USER <!-- Utilização de um usuário específico -->
 - WORKDIR <!-- Diretório default que inicializara no container -->
+- MAINTAINER <!-- Autor da imagem -->
