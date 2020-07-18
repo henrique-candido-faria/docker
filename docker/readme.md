@@ -44,3 +44,5 @@
 - docker volume prune <!-- Remove todos os volumes -->
 - docker commit <!-- Realiza a criação de uma imagem apartir de um container -->
 - docker image tag <!-- Adiciona tags a uma imagem de container -->
+- docker push <!-- Sobe a image gerada para o DockerHub -->
+- docker pull <!-- Realizar o download da imagem -->
