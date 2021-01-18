@@ -29,7 +29,7 @@
 - docker volume create nome <!-- Criação de um volume -->
 - docker volume ls <!-- Lista os volumes -->
 - docker attach <!-- Acessar container em execução -->
-- docker exec <!-- Executar alguma ação dentro do container -->
+- docker exec -it youthful_wiles bash <!-- Executar alguma ação dentro do container -->
 - docker stop <!-- Para o container -->
 - docker start <!-- Inicia o container -->
 - docker restart <!-- Reinicia o container -->
