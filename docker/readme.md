@@ -42,6 +42,7 @@
 - docker top <!-- Verificar os processos que estão sendo executados dentro do container -->
 - docker update <!-- Realiza a atualização de um container em execução -->
 - docker image build -t name:version . <!-- Realização do build -->
+- docker sistem prune -a <!-- Remove todos os recursos associados ao docker -->
 - docker container prune <!-- Remove todos os containers -->
 - docker volume prune <!-- Remove todos os volumes -->
 - docker commit <!-- Realiza a criação de uma imagem apartir de um container -->
